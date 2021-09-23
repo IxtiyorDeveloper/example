@@ -1,0 +1,204 @@
+.contact {
+  width: 100%;
+  padding-bottom: 50px;
+
+  .cf {
+    display: flex;
+
+    .col {
+      width: 50%;
+
+      &:first-child {
+        padding-left: 10%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        .line {
+          width: 100%;
+          height: 1px;
+          background-color: var(--lightGray);
+          margin: 10px 0;
+        }
+
+        .cw {
+          display: flex;
+          align-items: center;
+
+          .ch {
+          }
+
+          .text {
+            font-size: 16px;
+            color: var(--black1);
+            font-family: var(--neue__regular);
+          }
+        }
+
+        .mo {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+
+          .text1 {
+            font-size: 16px;
+            color: var(--black1);
+            font-family: var(--neue__regular);
+          }
+
+          .in-button {
+            width: 180px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: 1px solid rgba(256, 256, 256, 0.3);
+            background-color: var(--black);
+            font-size: 14px;
+            font-family: var(--neue__medium);
+            position: relative;
+
+            .wr {
+              opacity: 1;
+
+              .img {
+                margin-right: 5px;
+              }
+            }
+
+            .arrowMain {
+              position: absolute;
+              width: 0px;
+              height: 0px;
+              top: 50%;
+              left: 30%;
+              -webkit-transform: translate(0%, 0%);
+              -ms-transform: translate(0%, 0%);
+              transform: translate(0%, 0%);
+              opacity: 1;
+              -webkit-transition: opacity 0.5s ease-in;
+              -o-transition: opacity 0.5s ease-in;
+              transition: opacity 0.5s ease-in;
+            }
+
+            &:hover {
+              cursor: pointer;
+
+              .wr {
+                opacity: 0;
+              }
+
+              .arrowMain {
+                width: 42px;
+                height: 24px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 1;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -webkit-transition: opacity, left 0.3s ease-in;
+                -o-transition: opacity, left 0.3s ease-in;
+                transition: opacity, left 0.3s ease-in;
+              }
+            }
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .row {
+          &:nth-child(2){
+            margin-top: 30px;
+          }
+          &:nth-child(3){
+            margin-top: 30px;
+          }
+          .label {
+            font-size: 16px;
+            color: var(--black1);
+            font-family: var(--neue__regular);
+            position: relative;
+            display: flex;
+          }
+
+          .input {
+            padding: 10px 20px;
+            border: 1px solid var(--lightGray);
+            outline: none;
+            width: 45%;
+            margin-top: 10px;
+            font-size: 16px;
+            color: var(--black1);
+            font-family: var(--neue__regular);
+            &:hover{
+              border: 1px solid var(--black);
+            }
+            &:focus{
+              border: 1px solid var(--black);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+ .contact{
+    .cf{
+      flex-direction: column-reverse;
+      .col{
+        width: 100%;
+        &:first-child{
+          margin-top: 20px;
+        }
+        &:nth-child(2){
+          .row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      }
+    }
+ }
+}
+@media (max-width: 600px) {
+ .contact{
+    .cf{
+      .col{
+        &:nth-child(2){
+          .row{
+            .input{
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+ }
+}
+
+@media (max-width: 700px) {
+  .contact{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+@media (max-width: 500px) {
+ .contact{
+    .cf{
+      .col{
+        &:nth-child(2){
+          .row{
+            .input{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+ }
+}

@@ -1,0 +1,171 @@
+.mainImage {
+  width: 100%;
+  margin-top: -1px;
+  padding-top: 1px;
+
+  .content {
+    margin-top: 100px;
+
+    .left {
+      float: left;
+      display: flex;
+      width: 300px;
+      height: 100px;
+      margin-top: 16px;
+
+      .inLeft {
+        width: 80%;
+        height: 65%;
+        border-radius: 32.5px; // 100px * 0.65 * 0.5 = 32.5px
+        background-color: rgb(256, 256, 256, 0.5);
+        display: flex;
+        align-items: center;
+
+        .qu {
+          width: 65px;
+          height: 65px;
+          border-radius: 32.5px; // 100px * 0.65 * 0.5 = 32.5px
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--lightGray1);
+          font-size: 18px;
+          font-family: var(--neue__medium);
+        }
+
+        .text {
+          text-align: center;
+          width: 60%;
+          color: var(--lightGray);
+          font-size: 14px;
+          font-family: var(--neue__medium);
+        }
+
+        &:hover .text {
+          text-decoration: underline;
+          text-underline-offset: 1px;
+        }
+
+        &:hover {
+          cursor: pointer;
+          width: 85%;
+          transition: 0.1s;
+        }
+      }
+    }
+
+    .right {
+      float: right;
+      .irc{
+        display: none;
+      }
+      .button-wrapper {
+        width: 232px;
+        height: 82px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 8px solid rgba(14, 113, 184, 0.3);
+
+        .button {
+          width: 216px;
+          height: 66px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 8px solid rgba(14, 113, 184, 0.7);
+
+          .in-button {
+            width: 200px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: 1px solid rgba(256,256,256,0.3);
+            background-color: var(--blue1);
+            font-size: 14px;
+            font-family: var(--neue__medium);
+            position: relative;
+            .wr{
+              opacity: 1;
+              .img{
+                margin-right: 5px;
+              }
+            }
+            .arrowMain{
+              position: absolute;
+              width: 0px;
+              height: 0px;
+              top: 50%;
+              left: 30%;
+              -webkit-transform: translate(0%, 0%);
+              -ms-transform: translate(0%, 0%);
+              transform: translate(0%, 0%);
+              opacity: 1;
+              -webkit-transition: opacity 0.5s ease-in;
+              -o-transition: opacity 0.5s ease-in;
+              transition: opacity 0.5s ease-in;
+            }
+          }
+        }
+        &:hover .button .in-button{
+          cursor: pointer;
+          border-color: rgba(0,0,139,0.5);
+        }
+        &:hover .button .in-button .wr{
+          opacity: 0;
+        }
+        &:hover .button .in-button .arrowMain{
+          width: 42px;
+          height: 24px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 1;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -webkit-transition: opacity, left 0.3s ease-in;
+          -o-transition: opacity,left 0.3s ease-in;
+          transition: opacity,left 0.3s ease-in;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 786px) {
+  .mainImage{
+    .content{
+      .left{
+        display: none;
+      }
+      .right{
+        .button-wrapper{
+          display: none;
+        }
+        .irc{
+          display: block;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .mainImage{
+    .content{
+     padding-right: 5% !important;
+      padding-left: 5% !important;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .mainImage{
+    .content{
+      .right{
+        .irc{
+          display: block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+export const GET_GROUP = "GET_GROUP";
+export const STORE_GROUP = "STORE_GROUP";
+export const DELETE_GROUP = "DELETE_GROUP";
+export const GET_GROUP_ID = "GET_GROUP_ID";
+export const UPDATE_GROUP = "UPDATE_GROUP";
+export const GET_USER = "GET_USER";
+export const STORE_USER = "STORE_USER";
+export const DELETE_USER = "DELETE_USER";
+export const GET_USER_ID = "GET_USER_ID";
+export const UPDATE_USER = "UPDATE_USER";
+export const GET_PAYMENT = "GET_PAYMENT";
+export const STORE_PAYMENT = "STORE_PAYMENT";
+export const DELETE_PAYMENT = "DELETE_PAYMENT";
+export const GET_PAYMENT_ID = "GET_PAYMENT_ID";
+export const UPDATE_PAYMENT = "UPDATE_PAYMENT";

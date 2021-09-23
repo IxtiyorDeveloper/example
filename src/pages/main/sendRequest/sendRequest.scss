@@ -1,0 +1,40 @@
+.sendRequest {
+  width: 100%;
+  padding-top: 50px;
+  height: 30vh;
+
+  .button {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    border: 1px solid var(--gray3);
+    text-transform: uppercase;
+    justify-content: center;
+    color: var(--black);
+    font-size: 18px;
+    font-family: var(--neue__medium);
+    position: relative;
+    .icon{
+      position: absolute;
+      right: 2%;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+    &:hover {
+      cursor: pointer;
+      border-color: var(--lightGray2);
+    }
+    &:hover .icon{
+      transform: rotate(45deg);
+      top: 40%;
+      transition: 0.3s;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sendRequest{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}

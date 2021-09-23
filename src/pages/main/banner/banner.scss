@@ -1,0 +1,226 @@
+.banner {
+  padding-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+
+  .col {
+    &:first-child {
+      .title1 {
+        color: var(--lightGray1);
+        font-size: 14px;
+        font-family: var(--neue__medium);
+      }
+
+      .title2 {
+        color: var(--black);
+        font-size: 65px;
+        font-family: var(--neue__Demi-bold);
+        line-height: 70px;
+      }
+
+      width: 40%;
+    }
+
+    &:nth-child(2) {
+      display: flex;
+      align-items: end;
+      width: 20%;
+      justify-content: center;
+
+      .center-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .circle1 {
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          border: 1px solid var(--lightGray);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--black1);
+          font-size: 16px;
+          font-family: var(--neue__bold);
+          text-transform: uppercase;
+        }
+
+        .title3 {
+          color: var(--lightGray1);
+          font-size: 14px;
+          font-family: var(--neue__medium);
+          margin-left: 10px;
+        }
+
+        &:hover .circle1 {
+          border: 1px solid var(--lightGray2);
+          cursor: pointer;
+          color: var(--black);
+        }
+
+        &:hover .title3 {
+          text-decoration: underline;
+          text-underline-offset: 2px;
+          cursor: pointer;
+          color: var(--black);
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      width: 35%;
+
+      .title4 {
+        color: var(--lightGray1);
+        font-size: 26px;
+        font-family: var(--neue__medium);
+      }
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .banner {
+    .col {
+      &:first-child {
+        .title1 {
+          color: var(--lightGray1);
+          font-size: 14px;
+          font-family: var(--neue__medium);
+        }
+
+        .title2 {
+          color: var(--black);
+          font-size: 55px;
+          font-family: var(--neue__Demi-bold);
+          line-height: 70px;
+        }
+
+        width: 35%;
+      }
+      &:nth-child(2){
+        width: 30%;
+
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .banner{
+    flex-direction: column-reverse;
+    .col{
+      &:first-child{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        .title1{
+          display: none;
+        }
+      }
+      &:nth-child(2){
+      display: none;
+      }
+      &:nth-child(3){
+        width: 100%;
+        justify-content: end;
+        align-items: end;
+        display: flex;
+        .title4{
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .banner{
+    flex-direction: column-reverse;
+    .col{
+      &:first-child{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        .title1{
+          display: none;
+        }
+        .title2{
+          font-size: 48px;
+        }
+      }
+      &:nth-child(2){
+      display: none;
+      }
+      &:nth-child(3){
+        width: 100%;
+        justify-content: end;
+        align-items: end;
+        display: flex;
+        .title4{
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .banner{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (max-width: 560px) {
+  .banner{
+    .col{
+      &:first-child{
+        .title2{
+          font-size: 40px;
+        }
+      }
+      &:nth-child(3){
+        .title4{
+          width: 80%;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .banner{
+    .col{
+      &:first-child{
+        .title2{
+          font-size: 36px;
+        }
+      }
+      &:nth-child(3){
+        .title4{
+          width: 90%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .banner{
+    .col{
+      &:first-child{
+        .title2{
+          font-size: 32px;
+        }
+      }
+      &:nth-child(3){
+        .title4{
+          width: 90%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

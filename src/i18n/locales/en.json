@@ -1,0 +1,165 @@
+{
+  "global": {
+    "title": "The most suitable practice options",
+    "signin": "Sign In",
+    "signup": "Sign Up"
+  },
+  "field": {
+    "email": "Email",
+    "password": "Password",
+    "passwordconfirmation": "Password confirmation",
+    "usernameorcompanyname": "Username / Company name",
+    "stajor": "Interner",
+    "company": "Company",
+    "username": "Username",
+    "name": "Name",
+    "phone": "Phone",
+    "birthday": "Birthday",
+    "linkedin": "Linkedin",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
+  },
+  "message": {
+    "username": "Enter your username",
+    "name": "Enter your name",
+    "phone": "Enter your phone",
+    "email": "Enter your email",
+    "birthday": "Enter your birthday",
+    "linkedin": "Enter linkedin link",
+    "facebook": "Enter facebook link",
+    "instagram": "Enter instagram link"
+  },
+  "text": {
+    "enteremail": "Enter your email",
+    "enterpassword": "Enter your password",
+    "forgotpassword": "Forgot password?",
+    "noaccount": "Don't have an account?",
+    "or": "OR",
+    "haveaaccount": "Have a account?",
+    "enterusernameorcompanyname": "Enter username / company name",
+    "enterpasswordconfirmation": "Re-enter your password",
+    "chooseuserorcompany": "Choose an intern or company",
+    "readandagree": "I have read the Privacy Policy, the User Agreement. I agree.",
+    "passwordrecovery": "Password recovery",
+    "recoverytext": "Instructions for resetting the password will be sent to your email. You can reset your password using the instructions.",
+    "searchpost": "Search a post",
+    "readmore": "Read more",
+    "searchresult": "Search results",
+    "partners": "Partners",
+    "socialmedia": "Social media"
+  },
+  "action": {
+    "send": "Send",
+    "edit": "Edit",
+    "logout": "Log out",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "error": {
+    "emailnotvalid": "The email must be entered correctly!",
+    "passwordlength": "Password must be at least {{min}} characters long!"
+  },
+  "login": {
+    "social": "Sign in via {{var}}",
+    "vk": "Sign in via VK",
+    "google": "Sign in via Google",
+    "facebook": "Sign in via Facebook",
+    "mailru": "Sign in via Mail.ru"
+  },
+  "header": {
+    "home": "Home",
+    "hintstips": {
+      "title": "Hints & Tips",
+      "proforientation": "Proforientation",
+      "careertipsblogs": "Career tips & blogs",
+      "events": "Events",
+      "jobplacement": "Job placement",
+      "freewebinars": "Free webinars"
+    },
+    "beaintern": "Be a intern",
+    "more": {
+      "title": "More",
+      "successstories": "Success stories",
+      "universityranking": "University rankings",
+      "howitwork": "How it work?",
+      "faq": "FAQ",
+      "contacts": "Contacts"
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "aboutus": "About us",
+    "sustainability": "Sustainability",
+    "partnership": "Partnership",
+    "premiumsubscription": "Premium subscription",
+    "opportunities": "Opportunities",
+    "legalissues": "Legal issues",
+    "termsconditions": "Terms & conditions",
+    "privacypolicy": "Privacy policy",
+    "cookienotice": "Cookie notice",
+    "customercare": "Customer care",
+    "socialmedia": "We are on social networks",
+    "bottomtext": "This platform was developed by the {{link}} team at the initiative and with the support of the Youth Union of Uzbekistan.",
+    "copyright": "Stajirovka.uz. All rights reserved."
+  },
+  "profile": {
+    "title": "Profile",
+    "anketa": "Application form",
+    "application": "Applications",
+    "favourites": "Favourites"
+  },
+  "contact": {
+    "address": "Address",
+    "phone": "Phone",
+    "mainemail": "Main email",
+    "collaboration": "Collaboration",
+    "social": "We are on social networks",
+    "collaborationtext": "It is very easy to cooperate with Stajirovka.uz!",
+    "downloadtext": "Presentation for advertisers and partners",
+    "projectpresentation": "Download project presentation",
+    "projectmedia": "Download the project media kit",
+    "collaborationtextbottom": "We are open to any type of partnership and are ready to provide promotional tools free of charge until {{date}}!"
+  },
+  "home": {
+    "title": "The most suitable practice options",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate pariatur fuga alias, asperiores hic saepe deserunt ullam. Similique harum qui optio voluptate error est fugiat autem facere totam molestias?"
+  },
+  "events": {
+    "title": "Events to be held",
+    "date": "Time of the event",
+    "name": "The theme of the event",
+    "join": "Join the event",
+    "whathappen": "What will happen at the event?",
+    "create": "Create an event",
+    "createtext": "Want to plan an event that is fun for our users?",
+    "createbottomtext": "Absolutely free! Appears on the site after moderation."
+  },
+  "webinar": {
+    "rate": "Rate the webinar!",
+    "slides": "Slides",
+    "texts": "Texts",
+    "copylink": "Copy link"
+  },
+  "startnow": {
+    "title": "Start now",
+    "forinterns": "For Interns",
+    "foremployers": "For Employers",
+    "free": "Free to go",
+    "onlineregister": "Register online",
+    "careeradvice": "Career tips and resources",
+    "internshipopportunities": "Convenient internship opportunities",
+    "candidateswithsv": "Applying to interns through resumes",
+    "topcandidates": "Choosing the best interns"
+  },
+  "beintern": {
+    "notCovered": "not covered",
+    "partiallyCovered": "partially covered",
+    "specialization": "Specialization",
+    "region": "Region",
+    "found": "ads found",
+    "active": "Active",
+    "indefinite": "Indefinite",
+    "past": "Past",
+    "editProfile": "Edit profile"
+  }
+}

@@ -1,0 +1,129 @@
+.articles{
+  width: 100%;
+  padding-bottom: 100px;
+  .art-wr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .titleA{
+      color: var(--black);
+      font-size: 48px;
+      font-family: var(--neue__Demi-bold);
+    }
+    .art{
+      color: var(--black);
+      font-size: 24px;
+      font-family: var(--neue__Demi-bold);
+      display: flex;
+      align-items: center;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    width: 100%;
+    .col{
+      position: relative;
+      padding-bottom: 50px;
+      .img{
+        width: 100%;
+        height: 300px;
+        object-position: center;
+        object-fit: cover;
+      }
+       .title{
+         color: var(--black);
+         font-size: 20px;
+         font-family: var(--neue__Demi-bold);
+         display: flex;
+         align-items: center;
+         margin-top: 10px;
+         margin-bottom: 10px;
+       }
+      .text{
+        color: var(--lightGray2);
+        font-size: 16px;
+        font-family: var(--neue__medium);
+        display: flex;
+        align-items: center;
+      }
+      .abs{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: var(--lightGray2);
+        font-size: 16px;
+        font-family: var(--neue__medium);
+        display: flex;
+        align-items: center;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .articles{
+    .art-wr{
+      .titleA{
+        font-size: 48px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .art{
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .articles{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .articles{
+    .art-wr{
+      .titleA{
+        font-size: 40px;
+      }
+      .art{
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 470px) {
+  .articles{
+    .art-wr{
+      .titleA{
+        font-size: 36px;
+      }
+      .art{
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .articles{
+    .art-wr{
+      .titleA{
+        font-size: 32px;
+      }
+      .art{
+        display: none;
+      }
+    }
+  }
+}
